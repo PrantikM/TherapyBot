@@ -38,7 +38,7 @@ if user_prompt:
     st.session_state.chat_history.append({"role": "user", "content": user_prompt})
 
     messages = [
-        {"role": "system", "content": f"""You are an experienced, helpful professional psychological therapist."""},
+        {"role": "system", "content": f"""You are an experienced, helpful psychological therapist."""},
         *st.session_state.chat_history
     ]
 
